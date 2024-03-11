@@ -1,3 +1,3 @@
 # Kokoa Clone 2024 Update
 
-HTTML & CSS are so much better!
+CSS got so much netter!
