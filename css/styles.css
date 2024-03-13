@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+@import "reset.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "components/icon-row.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "variavles.css";
+@import "screens/find.css";
+
+body {
+  font-family: "Roboto Slab", serif;
+  height: 1000vh;
+  padding-top: 110px;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}

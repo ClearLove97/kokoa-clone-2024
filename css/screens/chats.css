@@ -1,0 +1,21 @@
+.chats-component__column {
+  margin-top: 15px;
+  flex-direction: column;
+  position: relative;
+}
+.chats-component__column span {
+  font-size: 18px;
+}
+.chats__notification {
+  width: 25px;
+  height: 25px;
+  color: white;
+  border-radius: 15px;
+  background-color: #ff6129;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 15px;
+  top: 30px;
+}
