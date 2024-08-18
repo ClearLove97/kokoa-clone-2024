@@ -41,3 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*내가 설정한 a태그 언더라인 제거*/
+a{
+	text-decoration: none;
+}
