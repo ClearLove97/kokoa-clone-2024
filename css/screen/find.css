@@ -41,3 +41,72 @@
 .open-chat__header span{
     fill: rgba(0, 0, 0, 0.5);
 }
+.open-post{
+    margin: 0px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.open-post__title{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.open-post__hashtags{
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom: 7px;
+}
+.open-post_members{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+}
+.open-post_members img{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.open-post__member-count{
+    opacity: 0.5;
+    font-size: 14px;
+}
+.open-post_members .divider{
+width: 1px;
+height: 10px;
+margin: 0px 5px;
+padding-top: 6px;
+background-color: rgba(0, 0, 0, 0.2);
+}
+.open-post__member-status{
+    font-weight: 600;
+    color: #ffb0e0;
+}
+.open-post__photo{
+    position: relative;
+}
+.open-post__photo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.open-post__heart-count{
+    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
+    fill:white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 7px;
+    right: 5px;
+    font-size: 12px;
+}
+.open-post__heart-count svg{
+    margin-left: 3px;
+}
